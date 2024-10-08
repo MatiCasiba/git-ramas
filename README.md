@@ -16,3 +16,10 @@ git confg --global alias.a "add"
 git confg --global alias.c "commit -m"
 git confg --global alias.l "log --oneline"
 ```
+
+## Ver las diferencias entre el WD(working directory) y LR(local repo)
+
+```sh
+git diff
+```
+
