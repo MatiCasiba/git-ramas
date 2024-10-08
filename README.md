@@ -45,3 +45,16 @@ git switch <nombre-rama>
 git switch feature/ramas #ejemplo
 ```
 
+## Comparar entre los ultimos commits de las ramas
+
+```sh
+git diff <nombre-rama-que-quiero-comparar> #comparo la rama actual contra la rama que indico
+git diff dev # ejemplo. comparo feature/ramas con dev
+```
+
+## Ver ramas locales y remotas
+
+```sh
+git branch -a # me muestra las ramas locales y remotas
+```
+
