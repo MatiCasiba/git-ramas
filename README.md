@@ -23,3 +23,9 @@ git confg --global alias.l "log --oneline"
 git diff
 ```
 
+# Ver el contenido de cada commit 
+
+```sh
+git show <numero-hash>
+```
+
