@@ -29,3 +29,19 @@ git diff
 git show <numero-hash>
 ```
 
+## Crear una rama
+
+```sh
+git branch <nombre-rama> #crea una rama y nos deja en la rama actual/original
+
+git branch feature/ramas #ejemplo
+git switch -c <nombre-rama> # crea una rama y nos mueve a la rama que se creo
+```
+
+## Me mueve entre ramas
+
+```sh
+git switch <nombre-rama>
+git switch feature/ramas #ejemplo
+```
+
